@@ -25,6 +25,7 @@ class CameraVC: UIViewController {
     var photoData: Data?
     
     var flashControlState: FlashState = .off
+    
 
     @IBOutlet weak var captureImageView: RoundedShadowImageView!
     @IBOutlet weak var flashBtn: RoundedShadowButton!
